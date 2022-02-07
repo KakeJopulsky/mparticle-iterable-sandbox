@@ -6,7 +6,7 @@ import mParticle_Iterable
 
 class MParticleManager {
     private static let mParticleKey = "<MPARTICLE_KEY>"
-    public static let mParticleSecret = "<API_SECRET>"
+    private static let mParticleSecret = "<API_SECRET>"
     
     public static let shared = MParticleManager()
     var currentUser: CurrentUser?
