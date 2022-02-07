@@ -12,7 +12,7 @@ pip install
 ## Configuration
 
 1. Setup an iOS input in mParticle in mParticle, and obtain the mParticle Key and Secret
-  - Setup your Iterable project as n output
+  - Setup your Iterable project as an output
 2. Input the keys in `MParticleManager.swift`
 
 ```swift
