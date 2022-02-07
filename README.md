@@ -23,3 +23,8 @@ private static let mParticleSecret = "<API_SECRET>"
 
 4. Connect your iOS device and run the application. 
 
+
+## Application Flow
+![application flow](https://user-images.githubusercontent.com/7648553/152820725-b894a10a-9587-4456-a42a-ccbe9a346e99.png)
+
+
