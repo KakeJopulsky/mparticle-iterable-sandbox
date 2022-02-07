@@ -1,0 +1,6 @@
+framework module mParticle_Iterable {
+  umbrella header "mParticle-Iterable-umbrella.h"
+
+  export *
+  module * { export * }
+}

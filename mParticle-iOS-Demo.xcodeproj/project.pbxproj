@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8437669627A39E69008D69A3 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437669527A39E69008D69A3 /* NotificationService.swift */; };
+		8437669A27A39E69008D69A3 /* NotificationExtensionService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8437669327A39E69008D69A3 /* NotificationExtensionService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		844582952790D7380099D418 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844582942790D7380099D418 /* ProfileView.swift */; };
+		844582972790E52D0099D418 /* CommerceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844582962790E52D0099D418 /* CommerceView.swift */; };
+		844582992790E6620099D418 /* OrderVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844582982790E6620099D418 /* OrderVIew.swift */; };
+		8468BD2E27B092E5004A4A73 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468BD2D27B092E5004A4A73 /* ItemDetail.swift */; };
+		8468BD3027B096A7004A4A73 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468BD2F27B096A7004A4A73 /* Order.swift */; };
+		847AC1FE277E5C19008038BE /* MParticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AC1FD277E5C19008038BE /* MParticleManager.swift */; };
+		84A6A7BA277E3AB100417DF0 /* mParticle_iOS_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6A7B9277E3AB100417DF0 /* mParticle_iOS_DemoApp.swift */; };
+		84A6A7BC277E3AB100417DF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6A7BB277E3AB100417DF0 /* ContentView.swift */; };
+		84A6A7BE277E3AB300417DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A6A7BD277E3AB300417DF0 /* Assets.xcassets */; };
+		84A6A7C1277E3AB300417DF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A6A7C0277E3AB300417DF0 /* Preview Assets.xcassets */; };
+		84C592B927977419002AD36F /* NotificationsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C592B827977419002AD36F /* NotificationsHelper.swift */; };
+		84EBF2D0278FA436000E297C /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EBF2CF278FA436000E297C /* CurrentUser.swift */; };
+		E1EB17E120F301ED278B10FD /* Pods_mParticle_iOS_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A2FB54EFCE5B96C6D8EABC /* Pods_mParticle_iOS_Demo.framework */; };
+		E86E77501B4B0DCC96BF2C3D /* Pods_NotificationExtensionService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D966B94BA2915525196167D /* Pods_NotificationExtensionService.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8437669827A39E69008D69A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A6A7AE277E3AB100417DF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8437669227A39E69008D69A3;
+			remoteInfo = NotificationExtensionService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8437669E27A39E69008D69A3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8437669A27A39E69008D69A3 /* NotificationExtensionService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12A2FB54EFCE5B96C6D8EABC /* Pods_mParticle_iOS_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mParticle_iOS_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F4EEF2B2BCF530560CCABCD /* Pods-mParticle-iOS-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mParticle-iOS-Demo.release.xcconfig"; path = "Target Support Files/Pods-mParticle-iOS-Demo/Pods-mParticle-iOS-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		6541C528A93252A112698EAE /* Pods-mParticle-iOS-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mParticle-iOS-Demo.debug.xcconfig"; path = "Target Support Files/Pods-mParticle-iOS-Demo/Pods-mParticle-iOS-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		74892423899CBF7FCBCBF852 /* Pods-NotificationExtensionService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationExtensionService.release.xcconfig"; path = "Target Support Files/Pods-NotificationExtensionService/Pods-NotificationExtensionService.release.xcconfig"; sourceTree = "<group>"; };
+		8437669327A39E69008D69A3 /* NotificationExtensionService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationExtensionService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8437669527A39E69008D69A3 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		8437669727A39E69008D69A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844582942790D7380099D418 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		844582962790E52D0099D418 /* CommerceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommerceView.swift; sourceTree = "<group>"; };
+		844582982790E6620099D418 /* OrderVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderVIew.swift; sourceTree = "<group>"; };
+		8468BD2D27B092E5004A4A73 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		8468BD2F27B096A7004A4A73 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		847AC1F8277E3BD0008038BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		847AC1FD277E5C19008038BE /* MParticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MParticleManager.swift; sourceTree = "<group>"; };
+		84A6A7B6277E3AB100417DF0 /* mParticle-iOS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mParticle-iOS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A6A7B9277E3AB100417DF0 /* mParticle_iOS_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mParticle_iOS_DemoApp.swift; sourceTree = "<group>"; };
+		84A6A7BB277E3AB100417DF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84A6A7BD277E3AB300417DF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A6A7C0277E3AB300417DF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84C592B827977419002AD36F /* NotificationsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsHelper.swift; sourceTree = "<group>"; };
+		84E64D8B27A3A07F00100884 /* NotificationExtensionService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationExtensionService.entitlements; sourceTree = "<group>"; };
+		84E64D8C27A3A0F100100884 /* mParticle-iOS-Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "mParticle-iOS-Demo.entitlements"; sourceTree = "<group>"; };
+		84EBF2CF278FA436000E297C /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		9D966B94BA2915525196167D /* Pods_NotificationExtensionService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationExtensionService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67E72147C23B4FFFD402BA4 /* Pods-NotificationExtensionService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationExtensionService.debug.xcconfig"; path = "Target Support Files/Pods-NotificationExtensionService/Pods-NotificationExtensionService.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8437669027A39E69008D69A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86E77501B4B0DCC96BF2C3D /* Pods_NotificationExtensionService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A6A7B3277E3AB100417DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EB17E120F301ED278B10FD /* Pods_mParticle_iOS_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8437669427A39E69008D69A3 /* NotificationExtensionService */ = {
+			isa = PBXGroup;
+			children = (
+				84E64D8B27A3A07F00100884 /* NotificationExtensionService.entitlements */,
+				8437669527A39E69008D69A3 /* NotificationService.swift */,
+				8437669727A39E69008D69A3 /* Info.plist */,
+			);
+			path = NotificationExtensionService;
+			sourceTree = "<group>";
+		};
+		84A6A7AD277E3AB100417DF0 = {
+			isa = PBXGroup;
+			children = (
+				84A6A7B8277E3AB100417DF0 /* mParticle-iOS-Demo */,
+				8437669427A39E69008D69A3 /* NotificationExtensionService */,
+				84A6A7B7277E3AB100417DF0 /* Products */,
+				BD5D035343C364DE0F6B91F2 /* Pods */,
+				CC8FCC2AA7F5D66D8DEB0DAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84A6A7B7277E3AB100417DF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A6A7B6277E3AB100417DF0 /* mParticle-iOS-Demo.app */,
+				8437669327A39E69008D69A3 /* NotificationExtensionService.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A6A7B8277E3AB100417DF0 /* mParticle-iOS-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				84E64D8C27A3A0F100100884 /* mParticle-iOS-Demo.entitlements */,
+				847AC1F8277E3BD0008038BE /* Info.plist */,
+				84A6A7B9277E3AB100417DF0 /* mParticle_iOS_DemoApp.swift */,
+				84A6A7BB277E3AB100417DF0 /* ContentView.swift */,
+				84A6A7BD277E3AB300417DF0 /* Assets.xcassets */,
+				84A6A7BF277E3AB300417DF0 /* Preview Content */,
+				847AC1FD277E5C19008038BE /* MParticleManager.swift */,
+				84EBF2CF278FA436000E297C /* CurrentUser.swift */,
+				844582942790D7380099D418 /* ProfileView.swift */,
+				844582962790E52D0099D418 /* CommerceView.swift */,
+				844582982790E6620099D418 /* OrderVIew.swift */,
+				84C592B827977419002AD36F /* NotificationsHelper.swift */,
+				8468BD2D27B092E5004A4A73 /* ItemDetail.swift */,
+				8468BD2F27B096A7004A4A73 /* Order.swift */,
+			);
+			path = "mParticle-iOS-Demo";
+			sourceTree = "<group>";
+		};
+		84A6A7BF277E3AB300417DF0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84A6A7C0277E3AB300417DF0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD5D035343C364DE0F6B91F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6541C528A93252A112698EAE /* Pods-mParticle-iOS-Demo.debug.xcconfig */,
+				5F4EEF2B2BCF530560CCABCD /* Pods-mParticle-iOS-Demo.release.xcconfig */,
+				F67E72147C23B4FFFD402BA4 /* Pods-NotificationExtensionService.debug.xcconfig */,
+				74892423899CBF7FCBCBF852 /* Pods-NotificationExtensionService.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC8FCC2AA7F5D66D8DEB0DAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12A2FB54EFCE5B96C6D8EABC /* Pods_mParticle_iOS_Demo.framework */,
+				9D966B94BA2915525196167D /* Pods_NotificationExtensionService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8437669227A39E69008D69A3 /* NotificationExtensionService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8437669B27A39E69008D69A3 /* Build configuration list for PBXNativeTarget "NotificationExtensionService" */;
+			buildPhases = (
+				9F2B48E853A74620BF02E928 /* [CP] Check Pods Manifest.lock */,
+				8437668F27A39E69008D69A3 /* Sources */,
+				8437669027A39E69008D69A3 /* Frameworks */,
+				8437669127A39E69008D69A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationExtensionService;
+			productName = NotificationExtensionService;
+			productReference = 8437669327A39E69008D69A3 /* NotificationExtensionService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		84A6A7B5277E3AB100417DF0 /* mParticle-iOS-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A6A7C4277E3AB300417DF0 /* Build configuration list for PBXNativeTarget "mParticle-iOS-Demo" */;
+			buildPhases = (
+				347B84296A5D66FE7D46E6DF /* [CP] Check Pods Manifest.lock */,
+				84A6A7B2277E3AB100417DF0 /* Sources */,
+				84A6A7B3277E3AB100417DF0 /* Frameworks */,
+				84A6A7B4277E3AB100417DF0 /* Resources */,
+				7027BF0396DD31818CB0C82B /* [CP] Embed Pods Frameworks */,
+				8437669E27A39E69008D69A3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8437669927A39E69008D69A3 /* PBXTargetDependency */,
+			);
+			name = "mParticle-iOS-Demo";
+			productName = "mParticle-iOS-Demo";
+			productReference = 84A6A7B6277E3AB100417DF0 /* mParticle-iOS-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A6A7AE277E3AB100417DF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8437669227A39E69008D69A3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					84A6A7B5277E3AB100417DF0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 84A6A7B1277E3AB100417DF0 /* Build configuration list for PBXProject "mParticle-iOS-Demo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A6A7AD277E3AB100417DF0;
+			productRefGroup = 84A6A7B7277E3AB100417DF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A6A7B5277E3AB100417DF0 /* mParticle-iOS-Demo */,
+				8437669227A39E69008D69A3 /* NotificationExtensionService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8437669127A39E69008D69A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A6A7B4277E3AB100417DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A6A7C1277E3AB300417DF0 /* Preview Assets.xcassets in Resources */,
+				84A6A7BE277E3AB300417DF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		347B84296A5D66FE7D46E6DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mParticle-iOS-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7027BF0396DD31818CB0C82B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mParticle-iOS-Demo/Pods-mParticle-iOS-Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mParticle-iOS-Demo/Pods-mParticle-iOS-Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mParticle-iOS-Demo/Pods-mParticle-iOS-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F2B48E853A74620BF02E928 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotificationExtensionService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8437668F27A39E69008D69A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8437669627A39E69008D69A3 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A6A7B2277E3AB100417DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A6A7BC277E3AB100417DF0 /* ContentView.swift in Sources */,
+				844582992790E6620099D418 /* OrderVIew.swift in Sources */,
+				844582972790E52D0099D418 /* CommerceView.swift in Sources */,
+				8468BD2E27B092E5004A4A73 /* ItemDetail.swift in Sources */,
+				8468BD3027B096A7004A4A73 /* Order.swift in Sources */,
+				84C592B927977419002AD36F /* NotificationsHelper.swift in Sources */,
+				844582952790D7380099D418 /* ProfileView.swift in Sources */,
+				84EBF2D0278FA436000E297C /* CurrentUser.swift in Sources */,
+				847AC1FE277E5C19008038BE /* MParticleManager.swift in Sources */,
+				84A6A7BA277E3AB100417DF0 /* mParticle_iOS_DemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8437669927A39E69008D69A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8437669227A39E69008D69A3 /* NotificationExtensionService */;
+			targetProxy = 8437669827A39E69008D69A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8437669C27A39E69008D69A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F67E72147C23B4FFFD402BA4 /* Pods-NotificationExtensionService.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationExtensionService/NotificationExtensionService.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7AGNFQWM8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationExtensionService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationExtensionService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jakekopulsky.mParticle-iOS-Demo.NotificationExtensionService";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8437669D27A39E69008D69A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74892423899CBF7FCBCBF852 /* Pods-NotificationExtensionService.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationExtensionService/NotificationExtensionService.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7AGNFQWM8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationExtensionService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationExtensionService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jakekopulsky.mParticle-iOS-Demo.NotificationExtensionService";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84A6A7C2277E3AB300417DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84A6A7C3277E3AB300417DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A6A7C5277E3AB300417DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6541C528A93252A112698EAE /* Pods-mParticle-iOS-Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "mParticle-iOS-Demo/mParticle-iOS-Demo.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mParticle-iOS-Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = X7AGNFQWM8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mParticle-iOS-Demo/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "jakekopulsky.mParticle-iOS-Demo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jakekopulsky.mParticle-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A6A7C6277E3AB300417DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4EEF2B2BCF530560CCABCD /* Pods-mParticle-iOS-Demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "mParticle-iOS-Demo/mParticle-iOS-Demo.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mParticle-iOS-Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = X7AGNFQWM8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mParticle-iOS-Demo/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "jakekopulsky.mParticle-iOS-Demo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jakekopulsky.mParticle-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8437669B27A39E69008D69A3 /* Build configuration list for PBXNativeTarget "NotificationExtensionService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8437669C27A39E69008D69A3 /* Debug */,
+				8437669D27A39E69008D69A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A6A7B1277E3AB100417DF0 /* Build configuration list for PBXProject "mParticle-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A6A7C2277E3AB300417DF0 /* Debug */,
+				84A6A7C3277E3AB300417DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A6A7C4277E3AB300417DF0 /* Build configuration list for PBXNativeTarget "mParticle-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A6A7C5277E3AB300417DF0 /* Debug */,
+				84A6A7C6277E3AB300417DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A6A7AE277E3AB100417DF0 /* Project object */;
+}

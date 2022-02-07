@@ -1,0 +1,4 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IterableSDK.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mParticle_Apple_SDK.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mParticle_Iterable.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IterableAppExtensions.framework

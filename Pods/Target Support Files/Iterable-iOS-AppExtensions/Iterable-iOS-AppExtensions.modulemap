@@ -1,0 +1,6 @@
+framework module IterableAppExtensions {
+  umbrella header "Iterable-iOS-AppExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

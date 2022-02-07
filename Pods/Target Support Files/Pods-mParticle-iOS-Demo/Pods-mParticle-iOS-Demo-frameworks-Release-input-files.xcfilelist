@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-mParticle-iOS-Demo/Pods-mParticle-iOS-Demo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Iterable-iOS-SDK/IterableSDK.framework
+${BUILT_PRODUCTS_DIR}/mParticle-Apple-SDK/mParticle_Apple_SDK.framework
+${BUILT_PRODUCTS_DIR}/mParticle-Iterable/mParticle_Iterable.framework
+${BUILT_PRODUCTS_DIR}/Iterable-iOS-AppExtensions/IterableAppExtensions.framework

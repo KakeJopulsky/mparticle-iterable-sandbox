@@ -1,0 +1,28 @@
+PODS:
+  - Iterable-iOS-AppExtensions (6.4.1)
+  - Iterable-iOS-SDK (6.4.1)
+  - mParticle-Apple-SDK/mParticle (8.5.4)
+  - mParticle-Iterable (8.1.0):
+    - Iterable-iOS-SDK (~> 6.2)
+    - mParticle-Apple-SDK/mParticle (~> 8.0)
+
+DEPENDENCIES:
+  - Iterable-iOS-AppExtensions
+  - mParticle-Iterable (~> 8.1.0)
+
+SPEC REPOS:
+  trunk:
+    - Iterable-iOS-AppExtensions
+    - Iterable-iOS-SDK
+    - mParticle-Apple-SDK
+    - mParticle-Iterable
+
+SPEC CHECKSUMS:
+  Iterable-iOS-AppExtensions: 45c334a84354b6ec69067c52f9f76e041f521fc3
+  Iterable-iOS-SDK: 059cc208e75bd0083e1335d749e574ef520eb425
+  mParticle-Apple-SDK: cc5e0c0bb5cdc90f647c5d01e77b112d82258e69
+  mParticle-Iterable: 5f1279e8e26e032fb472aa783883efbcd0af8303
+
+PODFILE CHECKSUM: 9a989dd663b62d7725496175c90cfc34059910f0
+
+COCOAPODS: 1.11.2
